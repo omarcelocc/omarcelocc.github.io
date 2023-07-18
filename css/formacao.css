@@ -39,6 +39,10 @@
   gap: 20px;
   margin-bottom: 60px;
 }
+.faculdade-div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 
 .faculdade{
   flex: 1;
@@ -47,6 +51,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
+  max-width: 200px;
 }
 
 .faculdade-tipo{
